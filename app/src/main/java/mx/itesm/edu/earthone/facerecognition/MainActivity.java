@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     private void picTime() {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         File photo = new File(Environment.getExternalStorageDirectory(), "picture.jpg");
